@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+import sys
+import os
+from libgensearch.search import search
+
+
+language = 'english'
+extensions = ['pdf','djvu']
+similaritythreshold = 0.5
+if  len(sys.argv)>1:
+    if len(" ".join(sys.argv[1:]))>3:
+        search(" ".join(sys.argv[1:]),similaritythreshold,language,extensions)
+    else:
+        print("Title too short")
+else:
+    print("usage: libgensearch title")
