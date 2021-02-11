@@ -10,7 +10,7 @@ setuptools.setup(
      name='libgensearch',
      version='0.1',
      url = 'https://github.com/AlexGibson12/libgen-search',
-     download_url =''
+     download_url ='https://github.com/AlexGibson12/libgen-search/archive/v_01.tar.gz',
      scripts=['./libgensearch/libgensearch'] ,
      author="Alex Gibson",
      author_email="afg9000@gmail.com",
