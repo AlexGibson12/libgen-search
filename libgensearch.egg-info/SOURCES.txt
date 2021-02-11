@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+./libgensearch/libgensearch
+libgensearch/downloadbar.py
+libgensearch/search.py
+libgensearch/textsimilarity.py
+libgensearch.egg-info/PKG-INFO
+libgensearch.egg-info/SOURCES.txt
+libgensearch.egg-info/dependency_links.txt
+libgensearch.egg-info/requires.txt
+libgensearch.egg-info/top_level.txt

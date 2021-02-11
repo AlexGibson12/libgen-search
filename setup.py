@@ -16,7 +16,11 @@ setuptools.setup(
      author_email="afg9000@gmail.com",
      description="Automatically downloads libgen titles",
      long_description=long_description,
-     url="https://github.com/AlexGibson12/libgen-search",
+     install_requires=[            # I get to this in a second
+          'tqdm',
+          'nltk',
+          'pandas'
+      ],
      packages=setuptools.find_packages(),
      py_modules = ['libgensearch.search','libgensearch.downloadbar','libgensearch.textsimilarity'],
      classifiers=[

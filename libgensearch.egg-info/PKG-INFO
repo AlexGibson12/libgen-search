@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: libgensearch
+Version: 0.1
+Summary: Automatically downloads libgen titles
+Home-page: https://github.com/AlexGibson12/libgen-search
+Author: Alex Gibson
+Author-email: afg9000@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/AlexGibson12/libgen-search/archive/v_01.tar.gz
+Description: # libgen-search
+        Automatically downloads books from libgen given the book title.
+        
+        Uses nltk to compare the similarity between the search term and the book title because libgen sometimes doesn't display books with exactly matching titles first.
+        
+        You can edit the extensions you want to use in the settings.ini file, as well as what language of books you prefer.
+        
+        `$ python main.py Algebraic Geometry`
+        
+        Plan to add ability to search by authors since that's pretty important, like there will be tons of books called the same thing but by different authors. 
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
